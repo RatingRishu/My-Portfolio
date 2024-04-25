@@ -1,9 +1,3 @@
-<!-- <section id="projects">
-    <h2>Projects</h2> -->
-<!-- Display your projects here -->
-<!-- </section> -->
-
-<!-- weather-app.component.html -->
 <div class="projects">
     <div>
         <h2>Google Login Integration in Angular (03/2024 - 04/2024)</h2>
@@ -11,73 +5,222 @@
             Implemented Google login functionality in an Angular application without using any external packages. Users
             can sign in to the application using their Google accounts, providing a seamless authentication experience.
         </p>
+        <h4>GitHub Link:-<span>https://github.com/RatingRishu/LoginwithGoogle.git</span></h4>
         <span>
             <p><b>Additional Information:</b></p>
-            <div *ngIf="showMore">
-                
+            <div *ngIf="showMoreGoogle">
+
                 <p>
-                    <b>Key Features:</b>
+                    <b>Key Features:</b><br>
                     Google OAuth Integration: Integrated Google OAuth authentication mechanism directly into the Angular
-                    application.
-                    User Authentication: Allows users to authenticate using their Google accounts, ensuring secure access to
-                    the application.
-                    State Management: Implemented state management to handle user sessions and authentication status within
-                    the Angular application.
-                    Secure Communication: Ensured secure communication between the Angular frontend and the backend server
-                    to exchange authentication tokens and user information.
-                    Technologies Used:
-                    Angular: Frontend framework used to develop the application.
-                    Google OAuth API: Utilized Google OAuth API to authenticate users.
-                    HTML/CSS/JavaScript: Used for frontend development and user interface design.
-                    TypeScript: Programming language used for Angular application development.
-                
-                    Successfully implemented Google login functionality without relying on external packages or libraries,
-                    showcasing proficiency in Angular and OAuth integration.
+                    application.<br>
+                    User Authentication: Allows users to authenticate using their Google accounts, ensuring secure
+                    access to the application.<br>
+                    State Management: Implemented state management to handle user sessions and authentication status
+                    within the Angular application.<br>
+                    Secure Communication: Ensured secure communication between the Angular frontend and the backend
+                    server to exchange authentication tokens and user information.
                 </p>
+
+                <p class="technologies"><b>Technologies Used:</b></p>
+                <ul>
+                    <li><span class="icon">🅰️</span> Angular: Frontend framework used to develop the application.</li>
+                    <li><span class="icon">🔑</span> Google OAuth API: Utilized Google OAuth API to authenticate users.
+                    </li>
+                    <li><span class="icon">🌐</span> HTML/CSS/JavaScript: Used for frontend development and user
+                        interface design.</li>
+                    <li><span class="icon">📘</span> TypeScript: Programming language used for Angular application
+                        development.</li>
+                </ul>
+
+                <p class="success">Successfully implemented Google login functionality without relying on external
+                    packages or libraries, showcasing proficiency in Angular and OAuth integration.</p>
+
             </div>
-           
+
         </span>
-        <button (click)="toggleMore()">{{ showMore ? 'Read Less' : 'Read More' }}</button>
-    </div>
-    <div>
-        <h2>Weather App (12/2023 - 01-2024)</h2>
-        <p>
-            App is the application of science and technology to predict the
-            conditions of the atmosphere for a given location and time.
-        </p>
-    </div>
+        <button class="read-more" (click)="toggleMore('google')">{{ showMoreGoogle ? 'Read Less' : 'Read More'
+            }}</button>
 
-    <div>
-        <h2>Apna Bazaar (12/2022 - 01/2023)</h2>
+        <h2>Apna Bazaar E-commerce Website 05/2023 - 08/2023</h2>
         <p>
-            Apna Bazar is the E-commerce websites. It is the activity of online
-            selling of the Grocery and Gift product on online service over the
-            Internet.
+            Apna Bazaar is an e-commerce website dedicated to the online sale of grocery and gift products through
+            internet-based services. This project was undertaken as part of my academic curriculum, allowing me to
+            apply
+            theoretical concepts to real-world scenarios in the development of an e-commerce platform.
         </p>
-    </div>
+        <h4>GitHub Link:-<span>https://github.com/RatingRishu/ApnaBazaar.git</span></h4>
+        <span>
+            <p><b>Additional Information:</b></p>
+            <div *ngIf="showMoreApna">
 
-    <div>
-        <h2>Carbike360 Clone (08/2022 - 09/2022)</h2>
+                <p>
+                    <b>Key Features:</b><br>
+                    Full-Stack Development: Engaged in both frontend and backend development tasks to create a
+                    comprehensive e-commerce solution.<br>
+                    User-Friendly Interface: Designed an intuitive and user-friendly interface to enhance the
+                    shopping
+                    experience for customers, focusing on ease of navigation and visually appealing layout.<br>
+                    Product Management: Implemented features for managing product listings, including categories,
+                    descriptions, images, and pricing, ensuring accurate and up-to-date information for
+                    shoppers.<br>
+                    Shopping Cart and Checkout: Developed functionalities for adding items to the cart, managing
+                    quantities, and facilitating secure checkout processes, enhancing convenience and efficiency for
+                    users.<br>
+                    Responsive Design: Ensured cross-device compatibility and responsiveness of the website,
+                    allowing
+                    users to access and shop conveniently from desktops, tablets, and smartphones.
+                </p>
+
+                <p class="technologies"><b>Technologies Used:</b></p>
+                <ul>
+                    <li><span class="icon">🅰️</span> Frontend: HTML, CSS, Bootstrap.</li>
+                    <li><span class="icon">🔑</span> Backend: Python</li>
+                    <li><span class="icon">🌐</span> Database: MySQL</li>
+                    <li><span class="icon">📘</span> Version Control: Git</li>
+                </ul>
+                <!-- 
+                <p class="success">Successfully implemented Google login functionality without relying on external
+                    packages or libraries, showcasing proficiency in Angular and OAuth integration.</p> -->
+
+            </div>
+
+        </span>
+        <button class="read-more" (click)="toggleMore('apna')">{{ showMoreApna ? 'Read Less' : 'Read More'
+            }}</button>
+        <h2>Weather App 12/2023 - 01/2024</h2>
         <p>
-            A social platform where users get connected and share there
-            experience and etc.. frontend part developed by me with react Js fully
-            responsive.
-            GitHub link- https://github.com/RatingRishu/My-task.git
+            The Weather App is a personal project aimed at applying scientific and technological principles to predict
+            atmospheric conditions for specific locations and times. Developed using Angular, this application serves as
+            a platform to enhance my skills in Angular development, project management, and application deployment.
         </p>
-    </div>
-    <div>
-        <h2>Android application for contact management, (05/2021 - 09/2021)
-        </h2>
+        <h4>GitHub Link:-<span>https://github.com/RatingRishu/WeatherApp.git</span></h4>
+        <span>
+            <p><b>Additional Information:</b></p>
+
+            <div class="read-more-content" [class.show]="showMoreWeather" *ngIf="showMoreWeather">
+
+                <p>
+                    <b>Key Features:</b><br>
+                    Angular Development: Leveraged Angular framework to build the frontend components and user
+                    interface
+                    of the Weather App, gaining practical experience in Angular project development.<br>
+                    API Integration: Integrated weather APIs to fetch real-time weather data for various locations,
+                    enabling users to access accurate and up-to-date weather information.<br>
+                    Location-based Forecast: Implemented features to allow users to search for weather forecasts
+                    based
+                    on their desired locations, providing customized weather updates.<br>
+                    Responsive Design: Ensured that the Weather App's interface is responsive and adaptable to
+                    different
+                    screen sizes and devices, enhancing accessibility and usability.<br>
+                </p>
+
+                <p class="technologies"><b>Technologies Used:</b></p>
+                <ul>
+                    <li><span class="icon">🅰️</span> Frontend: Angular, HTML, CSS, TypeScript</li>
+                    <li><span class="icon">📘</span> API: Weather APIs (e.g., OpenWeatherMap, Weatherstack)</li>
+                </ul>
+                <!-- 
+                <p class="success">Successfully implemented Google login functionality without relying on external
+                    packages or libraries, showcasing proficiency in Angular and OAuth integration.</p> -->
+
+            </div>
+
+        </span>
+        <button class="read-more" (click)="toggleMore('weather')">{{ showMoreWeather ? 'Read Less' : 'Read More'
+            }}</button>
+        <h2>Carbike360 Clone 08/2022 - 09/2022</h2>
         <p>
-            An Android application to manage the contact in phone where we can
-            save delete or update our contacts easily.
+            Carbike360 Clone is a project undertaken at Delente Technologies Pvt Ltd. My key responsibilities included
+            frontend development using React.js, ensuring responsive design, focusing on user experience enhancements,
+            maintaining version control with Git, and documenting project requirements and codebase.
         </p>
-    </div>
-    <div>
-        <h2>Axle Hub and The Car Loan Center (Office Projects)</h2>
+        <h4>GitHub Link:-<span>https://github.com/RatingRishu/My-task.git</span></h4>
+        <span>
+            <p><b>Additional Information:</b></p>
+            <div class="read-more-content" [class.show]="showMoreCarbike" *ngIf="showMoreCarbike">
+                <p>
+                    <b>Key Responsibilities and Achievements:</b><br>
+                    Frontend Development: Developed the frontend components and user interface for Carbike360 Clone
+                    using React.js.<br>
+                    Responsive Design: Ensured that the application's interface is fully responsive across various
+                    devices and screen sizes, providing an optimal user experience.<br>
+                    User Experience: Focused on enhancing the user experience by implementing intuitive navigation,
+                    interactive features, and engaging visual elements.<br>
+                    Version Control: Maintained project codebase and tracked changes using Git, facilitating
+                    collaboration and version control.<br>
+                    Documentation: Documented project requirements, design decisions, and codebase for future reference
+                    and team members' understanding.<br>
+                </p>
+                <p class="technologies"><b>Technologies Used:</b></p>
+                <ul>
+                    <li><span class="icon">🅰️</span> Frontend: React.js, HTML, CSS</li>
+                    <li><span class="icon">📘</span> Mode API</li>
+                    <li><span class="icon">🔧</span> Bootstrap for styling and grid functionality</li>
+                </ul>
+            </div>
+        </span>
+        <button class="read-more" (click)="toggleMore('carbike')">{{ showMoreCarbike ? 'Read Less' : 'Read More'
+            }}</button>
+
+        <h2>The Car Loan Centre May 2023 – Present (office Project)</h2>
         <p>
-            Worked on The Car Loan Center Website increase 20% of Proficiency. Worked on Axle Hub Website Worked with
-            Playwright Automation Testing.
+            The Car Loan Centre website serves as a comprehensive online platform designed to streamline
+            the process of securing auto financing for prospective car buyers. With a user-friendly interface and robust
+            functionality, our website offers a convenient and efficient solution for individuals seeking competitive
+            loan
+            options tailored to their needs.
         </p>
+        <h4>Live Link:-<span>https://cars.dealzsquare.co.uk/</span></h4>
+        <span>
+            <p><b>Additional Information:</b></p>
+            <div class="read-more-content" [class.show]="showMoreCarLoan" *ngIf="showMoreCarLoan">
+                <p>
+                    <b>Key Responsibilities and Achievements:</b><br>
+                    Develop reusable Angular components, directives, and services to support modular and scalable
+                    application architecture, adhering to best practices and coding standards.<br>
+                    Integrate Angular applications with RESTful APIs to fetch and manipulate data from server-side
+                    endpoints, implementing efficient data fetching and updating mechanisms.<br>
+                    Used Routing, Primeng and clarity grid to display the information history.<br>
+                    Developed reactive form controls in Angular and included two-way binding.<br>
+                    Included responsive design and model-driven approach.<br>
+                    Collaborate with UX/UI designers to implement responsive and user-friendly interfaces.<br>
+                </p>
+                <p class="technologies"><b>Technologies Used:</b></p>
+                <ul>
+                    <li><span class="icon">🅰️</span> Frontend: Angular.js, HTML, CSS</li>
+                    <li><span class="icon">📘</span> Mode API</li>
+                    <li><span class="icon">🔧</span> Bootstrap for styling and grid functionality</li>
+                </ul>
+                <p><b>Use of Angular Features:</b></p>
+                <ul>
+                    <li><span class="icon">🔄</span> Components: Developed reusable components to enhance modularity and
+                        maintainability.</li>
+                    <li><span class="icon">🔧</span> Directives: Implemented directives for dynamic DOM manipulation and
+                        behavior customization.</li>
+                    <li><span class="icon">🌐</span> API Integration: Integrated external APIs using Angular services to
+                        fetch and manipulate data.</li>
+                    <li><span class="icon">🛠️</span> Model-driven Forms: Implemented reactive forms with model-driven
+                        approach for data validation and binding.</li>
+                </ul>
+            </div>
+        </span>
+        <button class="read-more" (click)="showMoreCarLoan = !showMoreCarLoan">{{ showMoreCarLoan ? 'Read Less' : 'Read More' }}</button>
+
+        <!-- <div>
+            <h2>Android application for contact management, (05/2021 - 09/2021)
+            </h2>
+            <p>
+                An Android application to manage the contact in phone where we can
+                save delete or update our contacts easily.
+            </p>
+        </div>
+        <div>
+            <h2>Axle Hub and The Car Loan Center (Office Projects)</h2>
+            <p>
+                Worked on The Car Loan Center Website increase 20% of Proficiency. Worked on Axle Hub Website Worked
+                with
+                Playwright Automation Testing.
+            </p>
+        </div> -->
     </div>
-</div>
