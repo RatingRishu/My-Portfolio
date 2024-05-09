@@ -1,5 +1,5 @@
    body {
-    font-family: 'Arial', sans-serif;
+    font-family: cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,6 +36,7 @@
     text-decoration: none;
     color: #007BFF;
     font-weight: bold;
+    font-family: cursive;
   }
   
   .project-card {
@@ -55,10 +56,12 @@
   
   h3 {
     margin-top: 0;
+    font-family: cursive;
   }
   
   p {
     margin-bottom: 20px;
+    font-family: cursive;
   }
   
   .project-link {
@@ -73,6 +76,7 @@
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 8px;
+    font-family: cursive;
   }
   
   h2 {

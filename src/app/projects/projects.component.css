@@ -1,97 +1,99 @@
 h2 {
-    font-family: Arial, sans-serif;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-family: Arial, sans-serif;
-    color: #666;
-    line-height: 1.5;
-  }
-  
-  b {
-    color: #007bff;
-  }
-  
-  .technologies {
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  li {
-    margin-bottom: 5px;
-  }
-  
-  .success {
-    color: #28a745;
-    font-style: italic;
-  }
-  
-  .read-more {
-    background-color: #007bff;
-    color: #fff;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-left: 10%;
-    margin-top: 0%;
-  }
-  
-  .read-more:hover {
-    background-color: #0056b3;
-  }
-  
+  font-family: cursive;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: cursive;
+  color: #666;
+  line-height: 1.5;
+}
+
+b {
+  color: #007bff;
+}
+
+.technologies {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.success {
+  color: #28a745;
+  font-style: italic;
+}
+
+.read-more {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-top: 0%;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
 
 div {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    background-color: bisque 
-    }
- 
+  /* background-color: #f0f0f0; */
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  /* background-color: bisque  */
+}
+
 button {
-    background-color: #007bff; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-  }
-  h3 {
-    font-family: Arial, sans-serif;
-    font-size: 1.2em;
-    color: #333;
-    margin-top: 20px; /* Add some top margin for spacing */
-  }
-  
-  /* Hover effect */
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  button:active {
-    background-color: #004080; 
-  }
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  button.read-less {
-    background-color: #dc3545; 
-  }
+h3 {
+  font-family: cursive;
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 20px;
+  /* Add some top margin for spacing */
+}
 
-  button.read-more {
-    background-color: #28a745; 
-  }
-  
-  p {
-  font-family: Arial, sans-serif;
+/* Hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004080;
+}
+
+button.read-less {
+  background-color: #dc3545;
+}
+
+button.read-more {
+  background-color: #28a745;
+}
+
+p {
+  font-family: cursive;
   line-height: 1.5;
   color: #333;
 }
@@ -116,14 +118,17 @@ li {
 
 .success {
   color: #28a745;
-  font-style: italic;
+  font-family: cursive;
 }
+
 .read-more-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease; /* Adjust the duration and easing as needed */
+  transition: max-height 0.5s ease;
+  /* Adjust the duration and easing as needed */
 }
 
 .read-more-content.show {
-  max-height: 500px; /* Adjust the maximum height to fit your content */
+  max-height: 500px;
+  /* Adjust the maximum height to fit your content */
 }

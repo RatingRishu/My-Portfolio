@@ -1,20 +1,20 @@
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: cursive;
 }
 
 .container {
   display: flex;
   flex-direction: column; /* Adjusted for mobile responsiveness */
-  background-color: rgb(219, 159, 119);
+  background-color: #EDE8F5;;
   margin: -8px;
 }
 
 .sidebar {
   width: 91%; /* Adjusted for mobile responsiveness */
-  background-color: #333;
-  color: #fff;
+  background-color: #7091E6;;
+  color: black;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -46,13 +46,14 @@ body {
 }
 
 header {
-  background-color: #ddd;
   padding: 10px;
+  border-radius: 12px;
 }
 
 nav {
   background-color: #333;
   padding: 10px;
+  border-radius: 20px;
 }
 
 nav a {
@@ -60,7 +61,8 @@ nav a {
   color: #fff;
   margin-right: 25px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 20px;margin-left: 10px;
+  font-family: cursive;
   transition: color 0.3s ease;
 }
 
@@ -70,13 +72,14 @@ nav a:hover {
 
 .Detail {
   font-weight: bolder;
-  font-style: italic;
+  font-family: cursive;
 }
 
 .skills-container {
   max-width: 600px;
   margin: 50px auto;
   margin-left: 0px;
+  font-family: cursive;
 }
 
 .skill {
